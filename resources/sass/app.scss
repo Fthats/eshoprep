@@ -1,0 +1,42 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+.homepage-body{
+		background-color: DimGray;
+	}
+	.lol{
+		margin: -10px;
+	}
+	.item{
+		background-color: Gray;
+		padding: 40px;
+		display: grid;
+		grid-template-columns: 240px 150px 50px;
+	}
+	.item-img{
+		width: 200px;
+		grid-column: 1;
+	}
+	.item-name{
+		margin-top: 0px;
+		grid-column: 2;
+	}
+	.basket{
+		width: 18px;
+	}
+	.add-button{
+		margin-top: 129px;
+		grid-column: 3;
+	}
+	header{
+		background-color: DarkCyan;
+		padding: 20px;
+	}
+
+	
